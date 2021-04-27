@@ -1,5 +1,5 @@
 
-let monMot = "Hello world!";
+let monMot = "Hello";
 
 let reverseMot = [];
 
@@ -11,9 +11,6 @@ for(var i = 0; i < monMot.length; i++){
 
 for(var i = 0; i < monMot.length; i++){
   notReverseMot += reverseMot.pop();
-}
-
+} 
 
 console.log("Le mot inversé ",notReverseMot)
-
- 
